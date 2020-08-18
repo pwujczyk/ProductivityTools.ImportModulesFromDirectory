@@ -13,12 +13,16 @@
 
 # Import-ModulesFromDirectory
 
+Imports all module from given directory.
+<!--more-->
+
+
 Not all modules written by me are pushed directly to powershellgallery.com at first usually I am storing them on locally and use for some time, some of them won't be published as they are very specific to my needs and won't be valuable for others.
 
 To import them in convienient way I am using Import-ModulesFromDirectory module. 
 
 It searches through the directory to find psm1 files and performs **Import-Module** on them.
-
+<!--og-image-->
 ![Import modules from Directory](Images/ImportModulesFromDirectory.png)
 
 ```powershell
