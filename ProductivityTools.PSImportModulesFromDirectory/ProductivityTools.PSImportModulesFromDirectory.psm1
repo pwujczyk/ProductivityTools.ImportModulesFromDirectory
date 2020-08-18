@@ -1,7 +1,7 @@
 function Import-ModulesFromDirectory {
 	[cmdletbinding()]
 	param(
-		[string]$Path=$PSScriptRoot,
+		[string]$Path=$(Get-Location),
 		[switch]$Recurse
 	)
 
