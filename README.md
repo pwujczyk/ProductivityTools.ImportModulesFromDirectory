@@ -13,13 +13,13 @@
 
 # Import-ModulesFromDirectory
 
-Imports all module from given directory.
+Imports all modules from the given directory.
 <!--more-->
 
 
-Not all modules written by me are pushed directly to powershellgallery.com at first usually I am storing them on locally and use for some time, some of them won't be published as they are very specific to my needs and won't be valuable for others.
+Not all modules written by me are pushed directly to the powershellgallery.com. At first, usually, I am storing them locally and use for some time. Some of them won't be published as they are very specific to my needs and won't be valuable for others.
 
-To import them in convienient way I am using Import-ModulesFromDirectory module. 
+To import them in the convenient way I am using an Import-ModulesFromDirectory module. 
 
 It searches through the directory to find psm1 files and performs **Import-Module** on them.
 <!--og-image-->
@@ -31,4 +31,4 @@ Import-ModulesFromDirectory -Recurse -Verbose
 Import-ModulesFromDirectory -Recurse -Verbose -Path D:\Powershell\Common\Modules\
 ```
 
-Cmdlet has two switches: **Recuse** and **Path**. If **Path** is not provided it uses current directory.
+Cmdlet has two switches: **Recuse** and **Path**. If **Path** is not provided it uses the current directory.
