@@ -1,6 +1,6 @@
 clear
 cd $PSScriptRoot
 
-Import-Module .\ProductivityTools.PSImportModulesFromDirectory.psm1 -Force
+Import-Module .\ProductivityTools.ImportModulesFromDirectory.psm1 -Force
 cd D:\Powershell\EcoVadis\Modules
 Import-ModulesFromDirectory -verbose -Recurse
