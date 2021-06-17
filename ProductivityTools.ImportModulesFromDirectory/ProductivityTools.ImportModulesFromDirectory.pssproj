@@ -28,8 +28,8 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="ProductivityTools.PSImportModulesFromDirectory.psd1" />
-    <Compile Include="ProductivityTools.PSImportModulesFromDirectory.psm1" />
+    <Compile Include="ProductivityTools.ImportModulesFromDirectory.psd1" />
+    <Compile Include="ProductivityTools.ImportModulesFromDirectory.psm1" />
     <Compile Include="Runner.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
